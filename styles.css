@@ -10,3 +10,15 @@ font-size: medium;
 .container {
     display: flex;
 }
+
+.content-right {
+width: 60vw;
+height: 100vh;
+background-color: rgb(209, 204, 197);
+}
+
+.content-left {
+    width: 40vw;
+    height: 100vh;
+    
+}
