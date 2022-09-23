@@ -4,6 +4,9 @@ body {
     font-family: 'Nabla', cursive;
 font-family: 'Roboto', sans-serif;
 font-size: medium;
+padding: 0;
+margin: 0;
+overflow: hidden;
 }
 
 
@@ -14,7 +17,9 @@ font-size: medium;
 .content-right {
 width: 60vw;
 height: 100vh;
-background-color: rgb(209, 204, 197);
+background-color: rgb(247, 244, 241);
+padding-left: 30px;
+padding-top: 40px;
 }
 
 .content-left {
@@ -26,4 +31,20 @@ img {
     background-size: contain;
     width: 100%;
     height: 100%;
+}
+
+.logo {
+    position: absolute;
+    width: 3em;
+    color: white;
+    display: flex;
+    align-items: center;
+    left: 6em;
+    top: 10em;
+    background-color: rgba(26, 25, 25, 0.598);
+}
+
+.row {
+    display: flex;
+    gap: 5em;
 }
