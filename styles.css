@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nabla&family=Open+Sans:wght@300&family=Roboto&display=swap');
 
+@font-face {
+    font-family: 'NORSE';
+    src: url('./fonts/Norse-Bold.otf');
+}
 
 body {
     font-family: 'Nabla', cursive;
@@ -28,7 +32,7 @@ margin-top: 200px;
 
 .content-left {
     width: 40vw;
-    height: 100vh;
+    height: 100%;
 }
 
 img {
@@ -42,16 +46,22 @@ img {
     width: 3rem;
     color: white;
     display: flex;
-    align-itrems: center;
-    left: 6rem;
-    top: 10rem;
-    background-color: white;
+    align-items: center;
+    top: 20rem;
+    background-color: rgba(67, 66, 66, 0.509);
     width: fit-content;
-    
+    width: 769px;
+    justify-content: center;
+    font-family: 'Norse';
 }
 
 .logo img {
     width: 100px;
+}
+
+.logo-text {
+    font-size: 50px;
+    font-family: ;
 }
 
 .row {
@@ -71,6 +81,7 @@ img {
 
 .header-text {
     font-weight: bold;
+    line-height: 30px;
 }
 
 .already-account, .header-text {
