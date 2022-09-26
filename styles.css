@@ -12,7 +12,6 @@ background-color: rgb(247, 244, 241);
 
 }
 
-
 .container {
     display: flex;
 }
@@ -20,7 +19,6 @@ background-color: rgb(247, 244, 241);
 .content-right {
 width: 60vw;
 height: 100vh;
-padding-left: px;
 margin-top: 200px;
 }
 
@@ -68,6 +66,15 @@ img {
     border-radius: 10px;
     border: 1px solid #596D48;
     color: white;
+    margin: 25px;
+}
+
+.header-text {
+    font-weight: bold;
+}
+
+.already-account, .header-text {
+    margin: 25px;
 }
 
 .login {
