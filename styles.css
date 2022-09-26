@@ -100,6 +100,10 @@ input {
     border-radius: 6px;
 }
 
+.password {
+    border-color: red;
+}
+
 input:focus {
     border: 4px solid #E5E7EB;
 }
